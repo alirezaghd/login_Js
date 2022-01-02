@@ -1,0 +1,65 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" id="link">
+
+</head>
+
+<body>
+    <div class="row">
+        <div class="col">
+            <div class="login">
+                <button id="login" onclick="show_login()">ثبت نام</button>
+            </div>
+            <div class="form" id="form">
+                <div class="header">
+                    <p>ثبت نام</p>
+                    <input type="checkbox" onclick="dark()" id="darkmode" >
+                    <label for="darkmode" id="darkmode_l"> تاریک </label>
+
+                </div>
+
+                <hr>
+                <p>نام</p>
+                <input type="text">
+                <p> ایمیل</p>
+
+                <input type="text">
+                <p>کلمه عبور</p>
+
+                <input type="text">
+
+                <input type="radio" id="Single" name="radio" value="Single" onclick="if(this.checked){single_f()}">
+                <label for="Single"> مجرد </label>
+
+                <input type="radio" name="radio" id="Married" value="Married" onclick="if(this.checked){married_f()}">
+                <label for="Married"> متاهل </label>
+
+                <p id="name_h">نام همسر</p>
+                <input id="input_h" type="text">
+
+
+                <input type="checkbox" id="child" onclick="childs()">
+                <label for="child"> فرزند </label>
+                <p id="txt_childs">فرزندان</p>
+                <button id="btn_p" type="button" onclick="add_childs()" style="background-color: green; color: white;">+</button>
+                <button id="btn_n" type="button" onclick="remove_childs()" style="background-color: red; color: white;">-</button>
+                <ul id="mylist">
+
+                </ul>
+
+                <input type="button" value="ثبت نام" onclick="login()">
+
+
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js">
+
+
+    </script>
+</body>
+
+</html>

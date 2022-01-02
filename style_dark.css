@@ -1,0 +1,102 @@
+body{
+    direction: rtl;
+
+
+    
+}
+
+.row{
+    display: flex;
+    background-color: rgb(24, 31, 54);
+    width: 30%;
+    position: relative;
+    color: white;
+
+    
+
+}
+
+.col{
+  padding: 10px;
+  width: 100%;
+  right: 500px;
+
+}
+
+#login{
+    width: 100%;
+    padding: 15px;
+    color: black;
+    font-size: larger;
+    font-weight: 900;
+    position: relative;
+}
+
+.form{
+    display: none;
+}
+
+.form input{
+    margin-top: 10;
+    padding: 10;
+    width: 90%;
+}
+
+#Single {
+    position: relative;
+    left: 136px;
+}
+
+#Married{
+    position: relative;
+    left: 136px;
+}
+
+#child{
+    position: relative;
+    left: 136px;
+}
+
+label{
+    position: relative;
+    left: 396px;
+}
+
+#darkmode_l{
+    position: relative;
+    top: -64px;
+    left: -384px;
+}
+
+#darkmode{
+    position: relative;
+    top: -45px;
+    left: -172px;
+}
+
+.header{
+    height: 25px;
+}
+
+#name_h{
+    display: none;
+}
+
+#input_h{
+    display: none;
+}
+
+#txt_childs{
+    display: none;
+
+}
+
+#btn_p{
+    display: none;
+
+}
+
+#btn_n{
+    display: none;
+
+}
